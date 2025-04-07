@@ -32,7 +32,13 @@
 
 ## Example Scripts
 
-Example usage scripts are provided in the `scripts/` directory. These scripts demonstrate how to configure instruments, perform measurements, and save data.
+The `scripts/` directory contains example scripts demonstrating usage of the `lab_tools` class:
+
+- **`single_snapshots.m`**  
+  Sets specific waveform parameters, captures screenshots of the oscilloscope output, and demonstrates waveform changes between RAMP, SIN, and SQU.
+
+- **`sweep.m`**  
+  Performs a logarithmic frequency sweep from 1 Hz to 15 MHz. At each step, it measures peak voltages and phase difference using the oscilloscope. The results are saved to an Excel file for analysis.
 
 ## Authors
 
