@@ -61,8 +61,8 @@ lt.scope_writeline('MEAS2:MAIN FREQ');
 lt.scope_writeline('MEAS3:MAIN PEAK');
 lt.scope_writeline('MEAS4:MAIN FREQ');
 
-lt.scope_writeline('ACQ:TYPE AVER');
-lt.scope_writeline('ACQ:AVER:COUN 1024');
+%lt.scope_writeline('ACQ:TYPE AVER');
+%lt.scope_writeline('ACQ:AVER:COUN 1024');
 % ========================================================================
 
 % Device setup
